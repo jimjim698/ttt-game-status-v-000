@@ -59,7 +59,7 @@ else
 end
 
 def winner(board)
-if won?(board) == win_combination
+if won?(board) = win_combination
   return board[win_combination.first]
 end
 end
