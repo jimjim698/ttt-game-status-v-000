@@ -61,7 +61,7 @@ end
 
 
 def winner(board)
-if won?(board) == win_combination
+if win_combination = won?(board)
   board[win_combination[0]]
 end
 end
